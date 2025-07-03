@@ -46,7 +46,7 @@ class LoginScreen extends StatelessWidget {
 
                 },
                 style: ElevatedButton.styleFrom(
-                  padding: const EdgeInsets.symmetric(vertical: 16),
+                  padding: const EdgeInsets.symmetric(vertical: 18),
                   backgroundColor: Colors.deepPurple,
                 ),
                 child: const Text(
