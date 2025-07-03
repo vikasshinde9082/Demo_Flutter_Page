@@ -16,7 +16,7 @@ class LoginScreen extends StatelessWidget {
             TextField(
               keyboardType: TextInputType.emailAddress,
               decoration: const InputDecoration(
-                labelText: 'Email',
+
                 hintText: 'Enter your email',
                 prefixIcon: Icon(Icons.email),
                 border: OutlineInputBorder(),
@@ -28,7 +28,7 @@ class LoginScreen extends StatelessWidget {
             TextField(
               obscureText: true,
               decoration: const InputDecoration(
-                labelText: 'Password',
+
                 hintText: 'Enter your password',
                 prefixIcon: Icon(Icons.lock),
                 border: OutlineInputBorder(),
