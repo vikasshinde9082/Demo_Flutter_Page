@@ -1,6 +1,7 @@
 import 'package:dalliy_assessment/dalily_challenge/profile_card06.dart';
 import 'package:dalliy_assessment/dalily_challenge/styled_text_practice04.dart';
 import 'package:dalliy_assessment/dalily_challenge/vertical_layout_using_column02.dart';
+import 'package:dalliy_assessment/main.dart';
 import 'package:flutter/material.dart';
 
 import 'dalily_challenge/alignment_padding_and_margin05.dart';
@@ -8,6 +9,7 @@ import 'dalily_challenge/basic_container01.dart';
 import 'dalily_challenge/business _card_07.dart';
 import 'dalily_challenge/horizontal_layout_using_row03.dart';
 import 'dalily_challenge/login_screen08.dart';
+import 'dalily_challenge/styled_all_buttons_09.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -60,6 +62,10 @@ class _HomeScreenState extends State<HomeScreen> {
                 onPressed: (){ Navigator.push(context, MaterialPageRoute(builder: (context) => LoginScreen(),));
 
                 }, child: Text("Day 8")),
+            ElevatedButton(
+                onPressed: (){ Navigator.push(context, MaterialPageRoute(builder: (context) => StyledAllButtons09(),));
+
+                }, child: Text("Day 9")),
 
 
           ],
